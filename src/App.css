@@ -1,0 +1,148 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* STYLING FOR NOTE APP */
+.split {
+  display: flex;
+  flex-direction: row;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
+
+.sidebar--header {
+  display: flex;
+  align-content: center;
+  margin-bottom: 10px;
+}
+
+.new-note{
+  margin-left: 2px;
+  padding-left:5px; 
+  padding-right: 5px;
+}
+
+
+.container {
+  margin-right: 20px;
+}
+
+.text-snippet {
+  padding: 5px;
+  margin: 5px;
+  height: 20px;
+  overflow: hidden; /*hides any content that exceeds the dimensions of the input field.*/
+  white-space: nowrap; /* prevents line breaks, ensuring that the text remains on a single line.*/
+  text-overflow: ellipsis; /*truncates the text and adds an ellipsis (...) at the end when it exceeds the width of the input field.*/
+  font-size: 9px;
+  text-align-last:inherit ;
+  justify-content: center;
+ 
+  /*box-sizing: border-box; /* includes the padding and border in the total width and height of the container. This ensures that the specified width and height of the container include the padding and border, preventing the words from overflowing outside.*/
+}
+
+.title {
+  display: flex;
+  border: 1px solid blue;
+  margin: 5px;
+  max-width: 170px;
+}
+
+.delete-btn {
+  color: white;
+  height: 26px;
+  width: 20px;
+  background-color: white;
+  border: 1px solid white;
+}
+
+.delete-btn:hover {
+  height: 26px;
+  width: 20px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 3px;
+  color: white;
+  background-color: blue;
+  border: 1px solid blue;
+}
+
+
+/* STYLING FOR TENZEL GAME APP */
+
+body {
+  background-color: black;
+  padding: 10px;
+}
+
+main {
+  display: flex; /*NOTE: this works in sync with the below css properties; 'justify-content' & 'align-items'*/
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  background-color: white;
+  height: 100vh;
+  color: black; 
+  padding: 40px;
+}
+
+.dieDiv {
+  display: grid;
+  grid-template: auto auto / repeat(5, 1fr) ; /*This code here will make the elements display in five(5) columns and two(2) rows.*/
+  gap: 20px; /*This is use to give gap in-between lines*/
+  margin-top: 20px;
+}
+
+.die--face {
+  height: 50px;
+  width: 50px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 4px ;
+  display: flex; /*NOTE: this works in sync with the below css properties; 'justify-content' & 'align-items'*/
+  justify-content: center;
+  align-items: center;
+  /* background-color: #ffffff;  */
+}
+
+.rollDice{
+  height: 50px;
+  width: 80px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.rollDice:focus{
+  outline: none;
+}
+
+.rollDice:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+
+/* NOTE: The below can also be used to style the background each of the 'die' component in the 'die.js' file, it can be use in place of the 'styles' 'object' there.
+E.G of usage; ' props.style ? "green" : "" ':
+
+.green {
+  background-color: #008000;
+  height: 50px;
+  width: 50px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 4px ;
+  display: flex; /*NOTE: this works in sync with the below css properties; 'justify-content' & 'align-items'*/
+  /* justify-content: center;
+  align-items: center; 
+} 
+*/

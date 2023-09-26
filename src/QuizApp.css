@@ -1,0 +1,134 @@
+/* STYLING FOR QUIZ APP: */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: black;
+    padding: 10px;
+  }
+
+main {
+    display: flex; /*NOTE: this works in sync with the below css properties; 'justify-content' & 'align-items'*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color:   white;
+  
+    height: auto;
+  }
+
+.frontPageDiv {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:  white;
+    color:  blue;
+    padding: 200px;
+    border-radius: 10px;
+}
+
+  
+.quizAppMain {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px;
+    background-color: white;
+    color: black; 
+    padding: 20px;
+    
+  }
+
+  .answers {
+    margin: 20px;
+  }
+  
+  .correctAnswer {
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+  } 
+  
+  .selectedAnswer {
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    margin-right: 10px;
+  }
+
+  .answer {
+    cursor: pointer;  
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  .startQuiz {
+    margin: 10px;
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 255, 0.418);
+    border-radius: 5px;
+    background-color: blue;
+    color:   rgb(255, 255, 255);
+    font-family:Cambria, Cochin, Georgia;
+    font-size: large;
+  }
+
+  .frontPageP{
+    color: black;
+    text-decoration: underline;
+  }
+
+  .quizAppMainH1{
+    color: blue;
+    text-decoration: underline;
+  }
+
+  .quizAppMainTimeP{
+    color: blue;
+    font-size: large;
+    font-weight: bolder;
+    padding-top: 10px;
+  }
+  
+  .genNcheckQuizButn {
+    cursor: pointer;  
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+  }
+
+  .headNtime{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .hParagraph{
+    margin-bottom: 15px;
+    color: brown;
+  }
+
+  .scorePara {
+    margin-top: 10px;
+    color: brown;
+    font-weight:bolder;
+  }

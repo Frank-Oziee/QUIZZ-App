@@ -1,0 +1,97 @@
+{
+    "results": [
+        {
+
+            "type": "multiple",
+            "category": "General Knowledge",
+            "correct_answer": "S",
+            "difficulty": "medium", 
+            "incorrect_answers": ["O", "A", "C"], 
+            "question": "In the Morse code, which letter is indicated by 3 dots? " 
+        },
+         
+        {
+            "type": "multiple",
+            "category": "General Knowledge",
+            "correct_answer": "Yale University",
+            "difficulty": "medium",
+            "incorrect_answers": ["Princeton University", "Harvard University", "Columbia University"],
+            "question": "Which of the following Ivy League universities has its official motto in Hebrew as well as in Latin?"
+        },
+        
+        {
+            "type": "multiple",
+            "category": "General Knowledge",
+            "correct_answer": "true",
+            "difficulty": "medium",
+            "incorrect_answers": "false",
+            "question": "The bikini is named after the &quot;Bikini Atoll&quot;, an island where the United States conducted tests on atomic bombs."
+           
+        },
+        
+        {
+            "type": "boolean", 
+            "category": "General Knowledge",
+            "correct_answer": "true",
+            "difficulty": "medium",
+            "incorrect_answers": "false",
+            "question": "Cucumbers are usually more than 90% water."
+        },
+        
+        {
+            "type": "multiple", 
+            "category": "General Knowledge",
+            "correct_answer": "A flag",
+            "difficulty": "medium",
+            "incorrect_answers": ["A rope", "A window", "A type of food"],
+            "question": "What is a Burgee?"
+        },
+        
+        {
+            "type": "multiple",
+            "category": "General Knowledge",
+            "correct_answer": "Bergamot oil",
+            "difficulty": "medium",
+            "incorrect_answers": ["Lavender", "Vanilla", "Honey"],
+            "question": "Earl Grey tea is black tea flavoured with what?"
+        },
+        
+        {
+            "type": "multiple", 
+            "category": "General Knowledge",
+            "correct_answer": "Horse",
+            "difficulty": "medium",
+            "incorrect_answers":["Weave", "Guitar", "Boat"],
+            "question": "In ancient Greece, if your job were a &quot;hippeus&quot; which of these would you own?"
+        },
+        
+        {
+            "type":  "boolean",
+            "category": "General Knowledge",
+            "correct_answer": "true",
+            "difficulty": "medium",
+            "incorrect_answers": "false",
+            "question": "The British organisation CAMRA stands for The Campaign for Real Ale."
+        },
+        
+        {
+            "type": "boolean",
+            "category": "General Knowledge",
+            "correct_answer": "true",
+            "difficulty": "medium",
+            "incorrect_answers": "false",
+            "question": "Instant mashed potatoes were invented by Canadian Edward Asselbergs in 1962."
+        },
+        
+        {
+            "type": "multiple", 
+            "category": "General Knowledge",
+            "correct_answer": "Subway",
+            "difficulty": "medium",
+            "incorrect_answers":["Starbucks", "McDonalds", "KFC"],
+            "question": "What fast food chain has the most locations globally? "
+        }
+        
+    ]
+
+}
